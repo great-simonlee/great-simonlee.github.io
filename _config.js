@@ -1,10 +1,10 @@
 module.exports = {
   /** Site MetaData (Required all)*/
-  title: `LeeBros Tech Blog`,                           // (* Required)
-  description: `Blog Description`,          // (* Required)
-  author: `Author`,                         // (* Required)
+  title: `Dev. LeeBros`,                           // (* Required)
+  description: `LeeBros Developent Blog`,          // (* Required)
+  author: `Simon Lee / Denial Lee`,                         // (* Required)
   language: 'ko-KR',                        // (* Required) html lang, ex. 'en' | 'en-US' | 'ko' | 'ko-KR' | ...
-  siteUrl: 'https://',                      // (* Required)
+  siteUrl: 'https://great-simonlee.github.io/leebrostech.github.io/',                      // (* Required)
     // ex.'https://junhobaik.github.io'
     // ex.'https://junhobaik.github.io/' << X, Do not enter "/" at the end.
 
@@ -14,20 +14,20 @@ module.exports = {
     // If the file does not exist, it is replaced by a random image.
 
   /** Home > Bio information*/
-  comment: 'Enter your information in the "./config.js" file. ',
-  name: 'User Name',
-  company: '',
-  location: 'Korea',
-  email: '',
-  website: 'https://github.com/junhobaik/junhobaik.github.io',           // ex.'https://junhobaik.github.io'
-  linkedin: '',                                                          // ex.'https://www.linkedin.com/in/junho-baik-16073a19ab'
+  comment: '',
+  name: 'Simon Lee',
+  company: 'New York Moves Real Estate',
+  location: 'USA / Korea',
+  email: 'great.simonlee@gmail.com',
+  website: 'https://github.com/great-simonlee/leebrostech.github.io',           // ex.'https://junhobaik.github.io'
+  linkedin: 'https://www.linkedin.com/in/great-simonlee/',                                                          // ex.'https://www.linkedin.com/in/junho-baik-16073a19ab'
   facebook: '',                                                          // ex.'https://www.facebook.com/zuck' or 'https://www.facebook.com/profile.php?id=000000000000000'
   instagram: '',                                                         // ex.'https://www.instagram.com/junhobaik'
   github: '',                                                            // ex.'https://github.com/junhobaik'
 
   /** Post */
   enablePostOfContents: true,     // TableOfContents activation (Type of Value: Boolean. Not String)
-  disqusShortname: '',            // comments (Disqus sort-name)
+  disqusShortname: 'SimonLee',            // comments (Disqus sort-name)
   enableSocialShare: true,        // Social share icon activation (Type of Value: Boolean. Not String)
 
   /** Optional */
