@@ -90,7 +90,7 @@ const Header = (props: headerPropsType) => {
   return (
     <header id="Header" className={`${isHide ? 'hide' : 'show'} ${isMobile ? 'mobile' : ''}`}>
       <div className="header-title">
-        <Link to="/">
+        <Link to="/leebrostech.github.io/">
           <div className="header-profile-image-wrap">
             <img
               src={
@@ -107,7 +107,7 @@ const Header = (props: headerPropsType) => {
           </div>
         </Link>
 
-        <Link to="/">
+        <Link to="/leebrostech.github.io/">
           <h1 className="header-title-text">{siteTitle}</h1>
         </Link>
       </div>
